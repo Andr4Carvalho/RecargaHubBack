@@ -1,4 +1,4 @@
-﻿namespace SaaSBack.Requests
+﻿namespace RecargaHubBack.Requests
 {
     public class LoginRequest
     {

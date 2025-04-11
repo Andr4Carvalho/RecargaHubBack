@@ -45,3 +45,4 @@ C:\Users\Andre\Desktop\RecargaHubBack\obj\Debug\net8.0\refint\RecargaHubBack.dll
 C:\Users\Andre\Desktop\RecargaHubBack\obj\Debug\net8.0\RecargaHubBack.pdb
 C:\Users\Andre\Desktop\RecargaHubBack\obj\Debug\net8.0\RecargaHubBack.genruntimeconfig.cache
 C:\Users\Andre\Desktop\RecargaHubBack\obj\Debug\net8.0\ref\RecargaHubBack.dll
+C:\Users\Andre\Desktop\RecargaHubBack\obj\Debug\net8.0\RecargaHubBack.sourcelink.json

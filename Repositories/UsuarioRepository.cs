@@ -1,8 +1,8 @@
 ﻿using Dapper;
 using Npgsql;
-using SaaSBack.Models;
+using RecargaHubBack.Models;
 
-namespace SaaSBack.Repositories
+namespace RecargaHubBack.Repositories
 {
     public class UsuarioRepository(IConfiguration configuration)
     {

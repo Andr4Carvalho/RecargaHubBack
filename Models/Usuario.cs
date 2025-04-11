@@ -1,4 +1,4 @@
-﻿namespace SaaSBack.Models
+﻿namespace RecargaHubBack.Models
 {
     public class Usuario
     {
