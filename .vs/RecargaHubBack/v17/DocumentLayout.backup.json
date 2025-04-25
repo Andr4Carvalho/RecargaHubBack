@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\veiculoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\veiculoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\pontoderecargacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\pontoderecargacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +74,73 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Models\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Veiculo.cs",
+              "RelativeToolTip": "Models\\Veiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T19:55:23.013Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:29:59.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VeiculosController .cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\VeiculosController .cs",
+              "RelativeDocumentMoniker": "Controllers\\VeiculosController .cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\VeiculosController .cs",
+              "RelativeToolTip": "Controllers\\VeiculosController .cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T20:08:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T20:02:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:22:14.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -63,15 +153,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PontoDeRecargaController.cs",
               "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\PontoDeRecargaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PontoDeRecargaController.cs",
               "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\PontoDeRecargaController.cs",
               "RelativeToolTip": "Controllers\\PontoDeRecargaController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:19:13.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T15:34:43.173Z",
               "EditorCaption": ""
             }
           ]

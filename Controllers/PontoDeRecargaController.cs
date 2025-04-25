@@ -22,7 +22,7 @@ namespace RecargaHubBack.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<PontoDeRecarga>> BuscarPorId(int id)
         {
-            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em FROM pontos_recarga FROM pontos_recarga WHERE id = @id";
+            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em FROM pontos_recarga WHERE id = @id";
             var ponto = await _db.QueryFirstOrDefaultAsync<PontoDeRecarga>(sql, new { id });
             if (ponto == null) return NotFound();
             return Ok(ponto);

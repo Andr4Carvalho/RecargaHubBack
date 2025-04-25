@@ -36,7 +36,8 @@ namespace RecargaHubBack.Controllers
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity([
-                    new Claim("email", loginRequest.Email)
+                    new Claim("email", loginRequest.Email),
+                    new Claim("userId", usuario.Id.ToString())
                 ]),
                 Expires = DateTimeHelper.Now().AddHours(6),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
