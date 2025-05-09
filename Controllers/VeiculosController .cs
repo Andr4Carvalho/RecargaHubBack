@@ -18,7 +18,8 @@ namespace RecargaHubBack.Controllers
         [HttpGet]
         public async Task<IEnumerable<Veiculo>> ListarTodosDoUsuario()
         {
-            var sql = "SELECT id AS Id, usuario_id AS UsuarioId, modelo, placa, tipo, criado_em AS CriadoEm, cor FROM veiculos";
+            var sql = @"SELECT id AS Id, usuario_id AS UsuarioId, modelo, placa, tipo, tipo_conector AS Tipo_Conector, capacidade_bateria AS Capacidade_Bateria, cor, criado_em AS CriadoEm
+                FROM veiculos";
             var veiculos = await _db.QueryAsync<Veiculo>(sql);
             return veiculos;
         }
@@ -26,7 +27,8 @@ namespace RecargaHubBack.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Veiculo>> BuscarPorId(int id)
         {
-            var sql = "SELECT id, usuario_id AS UsuarioId, modelo, placa, tipo, criado_em, cor AS CriadoEm FROM veiculos WHERE id = @id";
+            var sql = @"SELECT id, usuario_id AS UsuarioId, modelo, placa, tipo, tipo_conector AS Tipo_Conector, capacidade_bateria AS Capacidade_Bateria, cor, criado_em AS CriadoEm
+                FROM veiculos WHERE id = @id";
             var veiculo = await _db.QueryFirstOrDefaultAsync<Veiculo>(sql, new { id });
             if (veiculo == null) return NotFound();
             return Ok(veiculo);
@@ -35,8 +37,8 @@ namespace RecargaHubBack.Controllers
         [HttpPost]
         public async Task<ActionResult> Criar(Veiculo veiculo)
         {
-            var sql = @"INSERT INTO veiculos (usuario_id, modelo, placa, tipo, criado_em, cor)
-                        VALUES (@UsuarioId, @Modelo, @Placa, @Tipo, @CriadoEm, @Cor) RETURNING id";
+            var sql = @"INSERT INTO veiculos (usuario_id, modelo, placa, tipo, tipo_conector, capacidade_bateria, criado_em, cor)
+                VALUES (@UsuarioId, @Modelo, @Placa, @Tipo, @Tipo_Conector, @Capacidade_Bateria, @CriadoEm, @Cor) RETURNING id";
             var id = await _db.ExecuteScalarAsync<int>(sql, veiculo);
             return CreatedAtAction(nameof(BuscarPorId), new { id }, veiculo);
         }
@@ -46,11 +48,13 @@ namespace RecargaHubBack.Controllers
         {
             veiculo.Id = id;
             var sql = @"UPDATE veiculos SET
-                        modelo = @Modelo,
-                        placa = @Placa,
-                        tipo = @Tipo,
-                        cor = @Cor
-                        WHERE id = @Id";
+                modelo = @Modelo,
+                placa = @Placa,
+                tipo = @Tipo,
+                tipo_conector = @Tipo_Conector,
+                capacidade_bateria = @Capacidade_Bateria,
+                cor = @Cor
+                WHERE id = @Id";
             var result = await _db.ExecuteAsync(sql, veiculo);
             if (result == 0) return NotFound();
             return NoContent();
