@@ -32,6 +32,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RecargaHubBack.Controllers.AvaliacoesController",
+    "Method": "Criar",
+    "RelativePath": "Avaliacoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacao",
+        "Type": "RecargaHubBack.Models.Avaliacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecargaHubBack.Controllers.AvaliacoesController",
+    "Method": "Listar",
+    "RelativePath": "Avaliacoes/{pontoRecargaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pontoRecargaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RecargaHubBack.Controllers.PontosDeRecargaController",
     "Method": "ListarTodos",
     "RelativePath": "PontosDeRecarga",

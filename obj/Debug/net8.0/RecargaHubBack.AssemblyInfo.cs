@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecargaHubBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb98766b06c215758f6e87df8dd307406f5a445c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef836a61e418e31daa53bc294d6f403f2fc41275")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecargaHubBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecargaHubBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

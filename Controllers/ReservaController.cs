@@ -29,7 +29,11 @@ namespace RecargaHubBack.Controllers
                     v.placa AS veiculo_placa,
                     p.id AS ponto_recarga_id,
                     p.nome AS ponto_recarga_nome,
-                    p.endereco AS ponto_recarga_endereco
+                    p.endereco AS ponto_recarga_endereco,
+                    EXISTS (
+                      SELECT 1 FROM avaliacoes_ponto_recarga a
+                      WHERE a.reserva_id = r.id
+                    ) AS avaliada
                 FROM reservas r
                 INNER JOIN veiculos v ON v.id = r.veiculo_id
                 INNER JOIN pontos_recarga p ON p.id = r.ponto_recarga_id

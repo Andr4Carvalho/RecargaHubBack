@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\repositories\\avaliacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:repositories\\avaliacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\avaliacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\avaliacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\veiculoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\veiculoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\pontoderecarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\pontoderecarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\controllers\\pontoderecargacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:controllers\\pontoderecargacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FE1A9B-D448-45EE-9852-637E12DFA407}|RecargaHubBack.csproj|c:\\users\\andre\\desktop\\recargahubback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,106 +62,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservaController.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\ReservaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReservaController.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\ReservaController.cs",
-              "RelativeToolTip": "Controllers\\ReservaController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AvaliacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\AvaliacoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AvaliacoesController.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\AvaliacoesController.cs",
+              "RelativeToolTip": "Controllers\\AvaliacoesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:36:43.705Z",
+              "WhenOpened": "2025-05-29T15:11:00.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Reserva.cs",
-              "RelativeToolTip": "Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "Avaliacao.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Avaliacao.cs",
+              "RelativeDocumentMoniker": "Models\\Avaliacao.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Avaliacao.cs*",
+              "RelativeToolTip": "Models\\Avaliacao.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:36:26.461Z",
+              "WhenOpened": "2025-05-29T15:10:50.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VeiculosController .cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\VeiculosController .cs",
-              "RelativeDocumentMoniker": "Controllers\\VeiculosController .cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\VeiculosController .cs",
-              "RelativeToolTip": "Controllers\\VeiculosController .cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Reserva.cs",
+              "RelativeToolTip": "Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:13:24.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:11:41.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Veiculo.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Veiculo.cs",
-              "RelativeDocumentMoniker": "Models\\Veiculo.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\Veiculo.cs",
-              "RelativeToolTip": "Models\\Veiculo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:11:40.739Z",
+              "WhenOpened": "2025-05-29T15:10:42.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PontoDeRecarga.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\PontoDeRecarga.cs",
-              "RelativeDocumentMoniker": "Models\\PontoDeRecarga.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Models\\PontoDeRecarga.cs",
-              "RelativeToolTip": "Models\\PontoDeRecarga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:06:02.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PontoDeRecargaController.cs",
-              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\PontoDeRecargaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PontoDeRecargaController.cs",
-              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Controllers\\PontoDeRecargaController.cs",
-              "RelativeToolTip": "Controllers\\PontoDeRecargaController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBEAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T16:04:07.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T15:46:28.178Z",
+              "WhenOpened": "2025-05-29T12:52:30.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AvaliacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Repositories\\AvaliacaoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AvaliacaoRepository.cs",
+              "ToolTip": "C:\\Users\\Andre\\Desktop\\RecargaHubBack\\Repositories\\AvaliacaoRepository.cs",
+              "RelativeToolTip": "Repositories\\AvaliacaoRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:50:56.36Z",
               "EditorCaption": ""
             }
           ]

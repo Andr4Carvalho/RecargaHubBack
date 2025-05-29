@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<UsuarioRepository>();
+builder.Services.AddSingleton<AvaliacaoRepository>();
 
 builder.Services.AddCors(options =>
 {

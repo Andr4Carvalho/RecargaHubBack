@@ -15,14 +15,14 @@ namespace RecargaHubBack.Controllers
         [HttpGet]
         public async Task<IEnumerable<PontoDeRecarga>> ListarTodos()
         {
-            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em FROM pontos_recarga ORDER BY id";
+            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em, latitude, longitude FROM pontos_recarga ORDER BY id";
             return await _db.QueryAsync<PontoDeRecarga>(sql);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<PontoDeRecarga>> BuscarPorId(int id)
         {
-            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em FROM pontos_recarga WHERE id = @id";
+            var sql = "SELECT id, nome, endereco, tipo_conector AS Tipo, potencia_kw AS Potencia, ativo, criado_em, latitude, longitude FROM pontos_recarga WHERE id = @id";
             var ponto = await _db.QueryFirstOrDefaultAsync<PontoDeRecarga>(sql, new { id });
             if (ponto == null) return NotFound();
             return Ok(ponto);
@@ -31,8 +31,8 @@ namespace RecargaHubBack.Controllers
         [HttpPost]
         public async Task<ActionResult> Criar(PontoDeRecarga ponto)
         {
-            var sql = @"INSERT INTO pontos_recarga (nome, endereco, tipo_conector, potencia_kw, ativo)
-                        VALUES (@Nome, @Endereco, @Tipo, @Potencia, @Ativo) RETURNING id";
+            var sql = @"INSERT INTO pontos_recarga (nome, endereco, tipo_conector, potencia_kw, ativo, latitude, longitude)
+                        VALUES (@Nome, @Endereco, @Tipo, @Potencia, @Ativo, @Latitude, @Longitude) RETURNING id";
             var id = await _db.ExecuteScalarAsync<int>(sql, ponto);
             return CreatedAtAction(nameof(BuscarPorId), new { id }, ponto);
         }
@@ -46,7 +46,9 @@ namespace RecargaHubBack.Controllers
                         endereco = @Endereco,
                         tipo_conector = @Tipo,
                         potencia_kw = @Potencia,
-                        ativo = @Ativo
+                        ativo = @Ativo,
+                        latitude = @Latitude,
+                        longitude = @Longitude
                         WHERE id = @Id";
             var result = await _db.ExecuteAsync(sql, ponto);
             if (result == 0) return NotFound();
