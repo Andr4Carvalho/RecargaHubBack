@@ -23,14 +23,12 @@ namespace RecargaHubBack.Controllers
                 return BadRequest("Dados inválidos");
             }
 
-            // Verifica se o e-mail e senha correspondem aos registros no banco
             var usuario = await _usuarioRepository.GetUsuarioByEmailAndSenhaAsync(loginRequest.Email, loginRequest.Senha);
             if (usuario == null)
             {
                 return Unauthorized("E-mail ou senha inválidos");
             }
 
-            // Gera o token JWT
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(Key.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor
@@ -74,7 +72,6 @@ namespace RecargaHubBack.Controllers
                 return StatusCode(500, "Erro ao cadastrar o usuário.");
             }
 
-            // Gera o token JWT
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(Key.Secret);
             var tokenDescriptor = new SecurityTokenDescriptor

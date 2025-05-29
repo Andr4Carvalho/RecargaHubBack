@@ -65,7 +65,6 @@ namespace RecargaHubBack.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Atualizar(int id, [FromBody] Reserva reserva)
         {
-            // Verifica se existe conflito de horário com outra reserva (ignora a atual)
             var conflito = await _db.QueryFirstOrDefaultAsync<Reserva>(
                 @"SELECT * FROM reservas 
                   WHERE ponto_recarga_id = @PontoRecargaId 
@@ -88,7 +87,6 @@ namespace RecargaHubBack.Controllers
             if (conflito != null)
                 return Conflict("Já existe uma reserva nesse horário para este ponto de recarga.");
 
-            // Atualiza a reserva
             var rows = await _db.ExecuteAsync(
                 @"UPDATE reservas
                   SET ponto_recarga_id = @PontoRecargaId,
