@@ -5,10 +5,12 @@ using Npgsql;
 using RecargaHubBack.Models;
 using RecargaHubBack.Repositories;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RecargaHubBack.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class AvaliacoesController(AvaliacaoRepository repo) : ControllerBase
     {

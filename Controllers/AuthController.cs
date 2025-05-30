@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using RecargaHubBack.Repositories;
@@ -9,6 +10,7 @@ using System.Text;
 namespace RecargaHubBack.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class AuthController(UsuarioRepository usuarioRepository) : ControllerBase
     {

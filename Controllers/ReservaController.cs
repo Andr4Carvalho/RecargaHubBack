@@ -4,10 +4,12 @@ using System.Data;
 using Npgsql;
 using RecargaHubBack.Models;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RecargaHubBack.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class ReservaController(IConfiguration config) : ControllerBase
     {

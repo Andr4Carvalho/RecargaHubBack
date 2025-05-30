@@ -3,10 +3,12 @@ using Dapper;
 using System.Data;
 using Npgsql;
 using RecargaHubBack.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RecargaHubBack.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class PontosDeRecargaController(IConfiguration config) : ControllerBase
     {
